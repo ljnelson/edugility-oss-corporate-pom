@@ -89,8 +89,8 @@
         these versions via pluginManagement, so if we want to totally
         constrain their versions, this is the only place to do it.
 
-Under normal circumstances, you would use pluginManagement for
-all other plugins.
+        Under normal circumstances, you would use pluginManagement for
+        all other plugins.
     -->
     <plugins>
       <plugin>
@@ -127,11 +127,11 @@ all other plugins.
       </plugin>
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>2.9.1</version>
+        <version>${mavenJavadocPluginVersion}</version>
       </plugin>
       <plugin>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>2.7</version>
+        <version>${mavenProjectInfoReportsPluginVersion}</version>
       </plugin>        
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
@@ -155,6 +155,10 @@ all other plugins.
   </build>
   
   <properties>
+
+    <!-- Versions -->
+    <mavenJavadocPluginVersion>2.9.1</mavenJavadocPluginVersion>
+    <mavenProjectInfoReportsPluginVersion>2.7</mavenProjectInfoReportsPluginVersion>
 
     <!-- maven-compiler-plugin properties -->
     <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
