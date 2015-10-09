@@ -11,21 +11,11 @@
   <version>8-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <!--
-      See http://central.sonatype.org/pages/apache-maven.html#nexus-staging-maven-plugin-for-deployment-and-release
-  -->
-  <!--
-  <parent>
-    <groupId>org.sonatype.oss</groupId>
-    <artifactId>oss-parent</artifactId>
-    <version>9</version>
-  </parent>
-  -->
-
   <name>Edugility Open Source Corporate POM</name>
   <description>Edugility Open Source Corporate POM</description>
   <inceptionYear>2013</inceptionYear>
-
+  <url>http://ljnelson.github.io/${project.artifactId}/</url>
+  
   <organization>
     <name>Edugility</name>
     <url>http://www.edugility.com/</url>
