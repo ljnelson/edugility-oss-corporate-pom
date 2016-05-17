@@ -68,7 +68,7 @@
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>2.6.1</version>
+          <version>3.0.0</version>
           <configuration>
             <filesets>
               <fileset>
@@ -99,15 +99,15 @@
         </plugin> 
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.5.2</version>
+          <version>2.5.3</version>
         </plugin>
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.4</version>
+          <version>3.5.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-source-plugin</artifactId>
-          <version>2.4</version>
+          <version>3.0.0</version>
           <executions>
             <execution>
               <id>attach-sources</id>
@@ -124,7 +124,7 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>1.6.6</version>
+          <version>1.6.7</version>
           <extensions>true</extensions>
           <configuration>
             <serverId>sonatype-oss-repository-hosting</serverId>
@@ -147,7 +147,7 @@
 
     <!-- Versions -->
     <mavenJavadocPluginVersion>2.10.3</mavenJavadocPluginVersion>
-    <mavenProjectInfoReportsPluginVersion>2.8.1</mavenProjectInfoReportsPluginVersion>
+    <mavenProjectInfoReportsPluginVersion>2.9</mavenProjectInfoReportsPluginVersion>
 
     <!-- maven-compiler-plugin properties -->
     <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
