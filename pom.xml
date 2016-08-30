@@ -8,7 +8,7 @@
 
   <groupId>com.edugility</groupId>
   <artifactId>edugility-oss-corporate-pom</artifactId>
-  <version>15-SNAPSHOT</version>
+  <version>14-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Edugility Open Source Corporate POM</name>
