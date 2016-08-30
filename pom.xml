@@ -107,7 +107,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-source-plugin</artifactId>
-          <version>3.0.0</version>
+          <version>3.0.1</version>
           <executions>
             <execution>
               <id>attach-sources</id>
@@ -146,7 +146,7 @@
   <properties>
 
     <!-- Versions -->
-    <mavenJavadocPluginVersion>2.10.3</mavenJavadocPluginVersion>
+    <mavenJavadocPluginVersion>2.10.4</mavenJavadocPluginVersion>
     <mavenProjectInfoReportsPluginVersion>2.9</mavenProjectInfoReportsPluginVersion>
 
     <!-- maven-compiler-plugin properties -->
